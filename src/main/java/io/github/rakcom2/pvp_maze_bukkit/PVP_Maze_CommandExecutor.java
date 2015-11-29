@@ -12,7 +12,7 @@ public class PVP_Maze_CommandExecutor implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String arg2, String[] args) {
 		if(cmd.getName().equalsIgnoreCase("hello")){
-			sender.sendMessage("Hello "+sender.getName());
+			sender.sendMessage("Hello "+args[0]);
 			return true;
 		}
 		return false;
