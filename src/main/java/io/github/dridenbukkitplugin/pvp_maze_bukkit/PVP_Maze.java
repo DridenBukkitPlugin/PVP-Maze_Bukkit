@@ -1,4 +1,4 @@
-package io.github.rakcom2.pvp_maze_bukkit;
+package io.github.dridenbukkitplugin.pvp_maze_bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class PVP_Maze extends JavaPlugin {
