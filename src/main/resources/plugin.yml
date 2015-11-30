@@ -1,14 +1,10 @@
 name: PVP_Maze
-main: io.github.rakusan2.pvp_maze_bukkit.PVP_Maze
+main: io.github.dridenbukkitplugin.pvp_maze_bukkit.PVP_Maze
 version: 0.1
 commands:
 	hello:
 		description: Sends hello back
-		usage: /<command>
-		permission: <plugin name>.hello
-		permission-message: I just don't know what went wrong
+		usage: /hello
 	boxin:
 		description: Creates a box around the player
-		usage: /<command>
-		permission: <plugin name>.boxin
-		permission-message: I just don't know what went wrong
+		usage: /boxin
