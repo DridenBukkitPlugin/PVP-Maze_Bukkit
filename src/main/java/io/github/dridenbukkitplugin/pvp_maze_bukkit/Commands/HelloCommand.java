@@ -14,7 +14,7 @@ public class HelloCommand implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(cmd.getName().equalsIgnoreCase("hello")){
-			sender.sendMessage("Hello "+args[0]);
+			sender.sendMessage("Hello "+sender.getName());
 			return true;
 		}
 		return false;
