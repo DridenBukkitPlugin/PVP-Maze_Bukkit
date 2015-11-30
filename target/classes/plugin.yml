@@ -2,9 +2,9 @@ name: PVP_Maze
 main: io.github.dridenbukkitplugin.pvp_maze_bukkit.PVP_Maze
 version: 0.1
 commands:
-	hello:
-		description: Sends hello back
-		usage: /hello
-	boxin:
-		description: Creates a box around the player
-		usage: /boxin
+  hello:
+    description: Sends hello back
+    usage: /hello
+  boxin:
+    description: Creates a box around the player
+    usage: /boxin

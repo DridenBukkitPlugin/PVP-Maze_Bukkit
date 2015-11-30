@@ -1,4 +1,6 @@
 *.class
 *.jar
 *.tar
+*.classpath
+
 target/
